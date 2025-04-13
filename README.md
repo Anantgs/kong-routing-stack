@@ -77,6 +77,11 @@ ea680fbff095: Mounted from library/python
 
 ### Deploy EKS cluster from here: 
 
+```
+https://gitlab.com/devops5113843/terraform/-/tree/main/26-EKS-with-LoadBalancer-Controller?ref_type=heads
+
+```
+
 ## Step-02: Create S3 Bucket
 - Go to Services -> S3 -> Create Bucket
 - **Bucket name:** terraform-on-aws-eks
@@ -110,9 +115,9 @@ ea680fbff095: Mounted from library/python
   - **Table settings:** Use default settings (checked)
   - Click on **Create**
 
+This is how we can deploy eks kong routing stack
 
-```
-https://gitlab.com/devops5113843/terraform/-/tree/main/26-EKS-with-LoadBalancer-Controller?ref_type=heads
+here : https://github.com/Anantgs/EKS-BASE-STACK.git
 
-```
+
 
