@@ -8,37 +8,38 @@ Here's a simple Dockerized "Hello World" web application in Python (Flask) that:
 
 project structure :
 
+```
 hello-app/
 ├── app.py
 ├── requirements.txt
 └── Dockerfile
-
+```
 
 cd hello-app
 
-# Create virtual environment
+### Create virtual environment
 python3 -m venv venv
 
-# Activate it
-# On Linux/macOS:
+### Activate it
+### On Linux/macOS:
 source venv/bin/activate
 
-# On Windows:
+### On Windows:
 venv\Scripts\activate
 
-# Navigate to project directory
+### Navigate to project directory
 
 ```
 cd hello-app
 ```
 
-# Build Docker image
+### Build Docker image
 
 ```
 docker build -t hello-world-app .
 ```
 
-# Run Docker container
+### Run Docker container
 
 ```
 docker run -p 5000:5000 hello-world-app
@@ -82,7 +83,7 @@ https://gitlab.com/devops5113843/terraform/-/tree/main/26-EKS-with-LoadBalancer-
 
 ```
 
-## Step-02: Create S3 Bucket
+### Step-02: Create S3 Bucket
 - Go to Services -> S3 -> Create Bucket
 - **Bucket name:** terraform-on-aws-eks
 - **Region:** US-East (N.Virginia)
@@ -100,7 +101,7 @@ https://gitlab.com/devops5113843/terraform/-/tree/main/26-EKS-with-LoadBalancer-
   - **Folder Name:** dev/app1k8s
   - Click on **Create Folder**    
 
-## Step-05: Add State Locking Feature using DynamoDB Table
+### Step-05: Add State Locking Feature using DynamoDB Table
 - Understand about Terraform State Locking Advantages
 ### Step-05-01: EKS Cluster DynamoDB Table
 - Create Dynamo DB Table for EKS Cluster
